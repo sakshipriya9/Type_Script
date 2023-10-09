@@ -1,0 +1,21 @@
+/**
+ * 
+ * arrays
+ * 
+ * let <variable_name> : type[]  = [val1, val2, ....];  // Syntax for how to define an array objects in TS
+ * 
+ */
+
+// Number Arrays
+let ids : number[] = [1,2,3,4,5];
+
+// Hetrogeneous Arrays with any type
+let hetero : any[] = [1,2,false,"123", null];
+
+// Unoin  types Arrays
+let data : (number | string | boolean)[] = [1, "Sakshi", true];
+
+console.log(ids, hetero, data);
+
+// arrays in form of typed tuple
+let data1 : [number , string , boolean] = [1, "Priya", true]; 
