@@ -1,0 +1,14 @@
+/* Types in typescript
+
+    Below are all primitive types in TS 
+
+    string -> store text
+    number -> integers, real
+    boolean
+    undefined
+    null
+    bigint 
+    symbol
+
+    var <variable_name> : number = <value>; // type annotation or type signature (Syntax : How to define a variable in TS)
+*/
