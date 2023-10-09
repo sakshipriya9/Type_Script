@@ -1,0 +1,5 @@
+function sum(a : number, b? : number) : number { //here b? means that if users have to put a value or not
+    return a + (b || 0); //(b || 0) is union type and the value of b is b or 0(by default)
+}
+
+console.log(sum(10))
